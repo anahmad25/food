@@ -29,15 +29,16 @@ header nav a {
 header nav .home-color {
   color: #74bebc;
 }
-header .box .btn {
+header .box, header .btnMenu, header .btnShopping {
+  display: none;
+}
+header .box .btnMenu {
   background-color: #f2f2f4;
-  dispay: none;
 }
 header .box .btnShopping {
   background-image: url("assets/button_wave.svg");
   background-size: cover;
   background-color: #33b9c0;
-  display: none;
 }
 header .box .btnShopping .icon i {
   color: white;
@@ -47,6 +48,9 @@ header .box .btnShopping .icon i {
     display: none;
   }
   header .box {
+    display: block;
+  }
+  header .box .btnMenu {
     display: inline-block;
   }
 }
