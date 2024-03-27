@@ -53,8 +53,6 @@ header .box .btnMenu {
   background-color: #f2f2f4;
 }
 header .box .btnShopping {
-  background-image: url("assets/button_wave.svg");
-  background-size: cover;
   background-color: #33b9c0;
   position: relative;
   margin-right: 10px;
@@ -86,10 +84,7 @@ header .box .btnShopping .icon i {
 }
 
 #beautiful {
-  background-image: url("assets/bg-shape.svg");
-  background-size: cover;
-  background-position: right;
-  background-repeat: no-repeat;
+  background-color: #f1f8f9;
   /* Media queries */
 }
 #beautiful .box h1 {
@@ -147,10 +142,7 @@ header .box .btnShopping .icon i {
 }
 
 #thehome {
-  background-image: url(assets/YumYum.png), url("assets/bgshapecontent.svg");
-  background-size: 700px 400px, 1700px, 1900px;
-  background-position: center, center;
-  background-repeat: no-repeat;
+  background-color: #f1f8f9;
   /* Media queries */
 }
 #thehome .textbox h1 {
@@ -167,7 +159,6 @@ header .box .btnShopping .icon i {
 }
 #thehome .textbox .btn {
   padding: 13px 30px;
-  background-image: url("assets/button_wave.svg");
   background-size: cover;
   background-color: #38b6c1;
   color: white;
@@ -178,10 +169,6 @@ header .box .btnShopping .icon i {
   width: 520px;
 }
 @media (max-width: 991px) {
-  #thehome {
-    background-size: 500px 500px, 2200px, 1900px;
-    background-position: top, center;
-  }
   #thehome .textbox {
     max-width: 450px;
     margin-bottom: 70px;
@@ -240,10 +227,7 @@ header .box .btnShopping .icon i {
 }
 
 #browse {
-  background-image: url("assets/bgshapecontent.svg");
-  background-position: bottom;
-  background-size: 1900px 930px;
-  background-repeat: no-repeat;
+  background-color: #f1f8f9;
   /* Media queries */
 }
 #browse .textbox {
@@ -322,23 +306,14 @@ header .box .btnShopping .icon i {
 #browse .big {
   padding: 17px 53px;
   margin-top: 50px;
-  background-image: url("assets/button_wave.svg");
 }
 @media (max-width: 1199px) {
   #browse .box .textbox p {
     margin: 10px 0;
   }
 }
-@media (max-width: 991px) {
-  #browse {
-    background-size: 5000px;
-  }
-}
 
 #order {
-  background-image: url("assets/contentpattern.svg");
-  background-repeat: no-repeat;
-  background-position: left top;
   /* Media queries */
 }
 #order .imgbox {
@@ -358,7 +333,6 @@ header .box .btnShopping .icon i {
 #order .textbox .btn {
   color: white;
   font-size: 20px;
-  background-image: url("assets/button_wave.svg");
   background-color: #38b6c1;
   padding: 13px 34px;
   border-radius: 5px;
@@ -399,7 +373,6 @@ header .box .btnShopping .icon i {
 #callour .textbox .btn {
   font-size: 20px;
   color: white;
-  background-image: url("assets/button_wave.svg");
   background-color: #38b6c1;
   padding: 13px 34px;
 }
