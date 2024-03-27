@@ -382,13 +382,15 @@ header .box .btnShopping .icon i {
 
 #callour {
   background-color: #f1f8f9;
+  padding: 120px 0;
+  /* Media queries */
 }
 #callour .textbox h1 {
   font-size: 65px;
   font-weight: 700;
   color: #36b3bd;
 }
-#callour .textbox h5 {
+#callour .textbox h2 {
   color: #676f8b;
   font-size: 20px;
   margin: 25px 75px 50px 0;
@@ -397,11 +399,26 @@ header .box .btnShopping .icon i {
 #callour .textbox .btn {
   font-size: 20px;
   color: white;
+  background-image: url("assets/button_wave.svg");
   background-color: #38b6c1;
   padding: 13px 34px;
 }
 #callour .imgbox {
   width: 520px;
+}
+@media (max-width: 991px) {
+  #callour .textbox {
+    padding: 0 100px;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  #callour .textbox h2 {
+    margin-right: 0;
+  }
+  #callour .imgbox {
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
 #support .textbox h1 {
