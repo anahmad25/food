@@ -123,10 +123,17 @@ header .box .btnShopping .icon i {
 @media (max-width: 991px) {
   #beautiful .box {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
+  }
+  #beautiful .box h1, #beautiful .box h2 {
+    margin-right: 0;
   }
   #beautiful .box h1 {
+    padding: 0 100px;
     font-size: 60px;
+  }
+  #beautiful .box h2 {
+    padding: 0 35px;
   }
   #beautiful .box .imgbox {
     margin-right: auto;
