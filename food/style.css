@@ -90,6 +90,7 @@ header .box .btnShopping .icon i {
   background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
+  /* Media queries */
 }
 #beautiful .box h1 {
   font-weight: 700;
@@ -99,7 +100,7 @@ header .box .btnShopping .icon i {
 #beautiful .box span {
   color: #37b7c3;
 }
-#beautiful .box h5 {
+#beautiful .box h2 {
   color: #676f8b;
   font-size: 20px;
   margin: 25px 75px 50px 0;
@@ -118,6 +119,24 @@ header .box .btnShopping .icon i {
 }
 #beautiful .box h4 {
   font-size: 20px;
+}
+@media (max-width: 991px) {
+  #beautiful .box {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  #beautiful .box h1 {
+    font-size: 60px;
+  }
+  #beautiful .box .imgbox {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #beautiful .imgbox {
+    width: 450px;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
 #thehome {
