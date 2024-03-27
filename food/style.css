@@ -325,6 +325,12 @@ header .box .btnShopping .icon i {
   }
 }
 
+#order {
+  background-image: url("assets/contentpattern.svg");
+  background-repeat: no-repeat;
+  background-position: left top;
+  /* Media queries */
+}
 #order .imgbox {
   width: 600px;
 }
@@ -333,7 +339,7 @@ header .box .btnShopping .icon i {
   font-weight: 700;
   color: #36b3bd;
 }
-#order .textbox h5 {
+#order .textbox h2 {
   color: #676f8b;
   font-size: 20px;
   margin: 25px 75px 50px 0;
@@ -342,9 +348,26 @@ header .box .btnShopping .icon i {
 #order .textbox .btn {
   color: white;
   font-size: 20px;
+  background-image: url("assets/button_wave.svg");
   background-color: #38b6c1;
   padding: 13px 34px;
   border-radius: 5px;
+}
+@media (max-width: 991px) {
+  #order .imgbox {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #order .textbox {
+    text-align: center;
+    padding: 0 100px;
+  }
+  #order .textbox h1 {
+    margin-top: 80px;
+  }
+  #order .textbox h2 {
+    margin-right: 0;
+  }
 }
 
 #callour {
