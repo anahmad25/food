@@ -140,15 +140,19 @@ header .box .btnShopping .icon i {
 }
 
 #thehome {
-  background-color: #f1f8f9;
+  background-image: url(assets/YumYum.png), url("assets/bgshapecontent.svg");
+  background-size: 700px 400px, 1700px, 1900px;
+  background-position: center, center;
+  background-repeat: no-repeat;
+  /* Media queries */
 }
 #thehome .textbox h1 {
   color: #36b3bd;
   font-size: 60px;
   font-weight: 700;
-  width: 400px;
+  max-width: 400px;
 }
-#thehome .textbox h5 {
+#thehome .textbox h2 {
   color: #676f8b;
   font-size: 20px;
   margin: 25px 75px 50px 0;
@@ -156,6 +160,8 @@ header .box .btnShopping .icon i {
 }
 #thehome .textbox .btn {
   padding: 13px 30px;
+  background-image: url("assets/button_wave.svg");
+  background-size: cover;
   background-color: #38b6c1;
   color: white;
   font-size: 20px;
@@ -163,6 +169,29 @@ header .box .btnShopping .icon i {
 }
 #thehome .imgbox {
   width: 520px;
+}
+@media (max-width: 991px) {
+  #thehome {
+    background-size: 500px 500px, 2200px, 1900px;
+    background-position: top, center;
+  }
+  #thehome .textbox {
+    max-width: 450px;
+    margin-bottom: 70px;
+    text-align: center;
+  }
+  #thehome .textbox h1 {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #thehome .textbox h2 {
+    margin: 25px 0 40px;
+  }
+  #thehome .imgbox {
+    width: 450px;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
 #works h1 {
