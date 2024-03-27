@@ -255,12 +255,15 @@ header .box .btnShopping .icon i {
   padding: 15px 46px;
   margin: 0 20px;
   border-radius: 5px;
+  max-width: 250px;
 }
 #browse .bgc {
   background-color: #3cc1d8;
   color: white;
 }
 #browse .box {
+  display: flex;
+  align-items: center;
   padding: 30px;
   border: 1px solid rgba(189, 189, 189, 0.3843137255);
   border-radius: 7px;
@@ -310,6 +313,43 @@ header .box .btnShopping .icon i {
 @media (max-width: 1199px) {
   #browse .box .textbox p {
     margin: 10px 0;
+  }
+}
+@media (max-width: 767px) {
+  #browse .btnBox {
+    flex-wrap: wrap;
+  }
+  #browse .btnBox .btn {
+    font-size: 18px;
+    border: 1px solid #bdbdbd;
+    padding: 15px 90px;
+    margin: 0 20px 10px 0;
+    border-radius: 5px;
+  }
+  #browse .box {
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  #browse .box .imgbox {
+    width: 204px;
+  }
+  #browse .box .textbox {
+    margin-left: 0;
+  }
+  #browse .box .textbox .minibox {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  #browse .box .textbox .minibox h5 {
+    margin-top: 10px;
+  }
+  #browse .box .textbox p {
+    margin-bottom: 15px;
+  }
+  #browse .box .textbox .add .btn {
+    margin-right: 0;
+    margin-left: 10px;
+    padding: 7px 15px;
   }
 }
 
