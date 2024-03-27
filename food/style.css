@@ -272,8 +272,9 @@ header .box .btnShopping .icon i {
 #browse .box {
   padding: 30px;
   border: 1px solid rgba(189, 189, 189, 0.3843137255);
-  border-radius: 5px;
+  border-radius: 7px;
   background-color: white;
+  margin-bottom: 20px;
 }
 #browse .box .imgbox {
   width: 150px;
@@ -316,12 +317,14 @@ header .box .btnShopping .icon i {
   margin-top: 50px;
   background-image: url("assets/button_wave.svg");
 }
+@media (max-width: 1199px) {
+  #browse .box .textbox p {
+    margin: 10px 0;
+  }
+}
 @media (max-width: 991px) {
   #browse {
     background-size: 5000px;
-  }
-  #browse .box {
-    margin-bottom: 20px;
   }
 }
 

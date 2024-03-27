@@ -30,8 +30,9 @@
     .box
         padding: 30px
         border: 1px solid #bdbdbd62
-        border-radius: 5px
+        border-radius: 7px
         background-color: #ffff
+        margin-bottom: 20px
         .imgbox
             width: 150px
             border-radius: 10px
@@ -67,7 +68,11 @@
         background-image: url('assets/button_wave.svg')
 
     /* Media queries */
+    @media (max-width: 1199px)
+        .box
+            .textbox
+                p
+                    margin: 10px 0
+
     @media (max-width: 991px)
         background-size: 5000px
-        .box
-            margin-bottom: 20px
