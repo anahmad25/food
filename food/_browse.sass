@@ -1,4 +1,8 @@
 #browse
+    background-image: url('assets/bgshapecontent.svg')
+    background-position: bottom
+    background-size: 1900px 930px
+    background-repeat: no-repeat
     .textbox
         width: 500px
         text-align: center
@@ -16,7 +20,7 @@
                 text-decoration-line: underline
     .btn
         font-size: 18px
-        border: 0.5px solid #bdbdbd
+        border: 1px solid #bdbdbd
         padding: 15px 46px
         margin: 0 20px
         border-radius: 5px
@@ -25,6 +29,9 @@
         color: #ffff
     .box
         padding: 30px
+        border: 1px solid #bdbdbd62
+        border-radius: 5px
+        background-color: #ffff
         .imgbox
             width: 150px
             border-radius: 10px
@@ -57,3 +64,9 @@
     .big
         padding: 17px 53px
         margin-top: 50px
+
+    /* Media queries */
+    @media (max-width: 991px)
+        background-size: 5000px
+        .box
+            margin-bottom: 20px
