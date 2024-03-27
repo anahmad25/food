@@ -342,7 +342,7 @@ header .box .btnShopping .icon i {
   /* Media queries */
 }
 #order .imgbox {
-  width: 600px;
+  max-width: 600px;
 }
 #order .textbox h1 {
   font-size: 60px;
