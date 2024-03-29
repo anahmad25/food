@@ -232,11 +232,11 @@ header .box .btnShopping .icon i {
   }
 }
 @media (max-width: 575px) {
-  #works .box .textbox {
-    padding: 0;
-  }
   #works .box .imgbox {
     margin-bottom: 40px;
+  }
+  #works .box .textbox {
+    padding: 0;
   }
 }
 
