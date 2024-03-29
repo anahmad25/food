@@ -237,6 +237,14 @@ header .box .btnShopping .icon i {
     padding-right: 130px;
   }
 }
+@media (max-width: 575px) {
+  #works .box .textbox {
+    padding: 0;
+  }
+  #works .box .imgbox {
+    margin-bottom: 40px;
+  }
+}
 
 #browse {
   background-color: #f1f8f9;
