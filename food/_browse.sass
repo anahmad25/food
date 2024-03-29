@@ -1,7 +1,7 @@
 #browse
     background-color: #f1f8f9
     .textbox
-        width: 500px
+        max-width: 500px
         text-align: center
         h1
             font-weight: 700
@@ -77,11 +77,8 @@
         .btnBox
             flex-wrap: wrap
             .btn
-                font-size: 18px
-                border: 1px solid #bdbdbd
                 padding: 15px 90px
                 margin: 0 20px 10px 0
-                border-radius: 5px
         .box
             flex-wrap: wrap
             padding: 20px
@@ -101,3 +98,14 @@
                         margin-right: 0
                         margin-left: 10px
                         padding: 7px 15px
+
+    @media (max-width: 575px)
+        .btnBox
+            flex-direction: column
+            .btn
+                padding: 15px 205px
+                margin: 0 0 10px 0
+                max-width: 450px
+        .box
+            .imgbox
+                width: 500px
