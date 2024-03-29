@@ -173,7 +173,7 @@ header .box .btnShopping .icon i {
   border-radius: 5px;
 }
 #thehome .imgbox {
-  width: 520px;
+  max-width: 520px;
 }
 @media (max-width: 991px) {
   #thehome .textbox {
@@ -189,14 +189,8 @@ header .box .btnShopping .icon i {
     margin: 25px 0 40px;
   }
   #thehome .imgbox {
-    max-width: 450px;
     margin-right: auto;
     margin-left: auto;
-  }
-}
-@media (max-width: 575px) {
-  #thehome .imgbox {
-    max-width: 300px;
   }
 }
 
@@ -455,7 +449,7 @@ header .box .btnShopping .icon i {
   padding: 13px 34px;
 }
 #callour .imgbox {
-  width: 520px;
+  max-width: 520px;
 }
 @media (max-width: 991px) {
   #callour .textbox {
@@ -469,6 +463,11 @@ header .box .btnShopping .icon i {
   #callour .imgbox {
     margin-right: auto;
     margin-left: auto;
+  }
+}
+@media (max-width: 767px) {
+  #callour .textbox {
+    padding: 0;
   }
 }
 
