@@ -423,6 +423,14 @@ header .box .btnShopping .icon i {
     margin-right: 0;
   }
 }
+@media (max-width: 767px) {
+  #order .textbox {
+    padding: 0;
+  }
+  #order .textbox h1 {
+    font-size: 55px;
+  }
+}
 
 #callour {
   background-color: #f1f8f9;
