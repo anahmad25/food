@@ -189,9 +189,14 @@ header .box .btnShopping .icon i {
     margin: 25px 0 40px;
   }
   #thehome .imgbox {
-    width: 450px;
+    max-width: 450px;
     margin-right: auto;
     margin-left: auto;
+  }
+}
+@media (max-width: 575px) {
+  #thehome .imgbox {
+    max-width: 300px;
   }
 }
 
