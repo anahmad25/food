@@ -135,9 +135,17 @@ header .box .btnShopping .icon i {
     margin-left: auto;
   }
   #beautiful .imgbox {
-    width: 450px;
+    max-width: 450px;
     margin-right: auto;
     margin-left: auto;
+  }
+}
+@media (max-width: 767px) {
+  #beautiful {
+    padding: 30px 0;
+  }
+  #beautiful .box h1, #beautiful .box h2 {
+    padding: 0;
   }
 }
 
