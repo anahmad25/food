@@ -368,12 +368,18 @@ header .box .btnShopping .icon i {
     flex-direction: column;
   }
   #browse .btnBox .btn {
-    padding: 15px 155px;
-    margin: 0 0 10px 0;
-    max-width: 350px;
+    padding-right: 0;
+    padding-left: 0;
+    margin-bottom: 10px;
+    min-width: 350px;
   }
   #browse .box .imgbox {
     width: 500px;
+  }
+}
+@media (max-width: 400px) {
+  #browse .btnBox .btn {
+    min-width: 300px;
   }
 }
 
